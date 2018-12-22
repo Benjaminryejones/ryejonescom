@@ -1,0 +1,24 @@
+{
+  "name": "ryejones",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "prod": "webpack -p"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "node-sass": "^4.11.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "webpack": "^4.28.0"
+  },
+  "devDependencies": {},
+  "author": "Rye Jones",
+  "license": "ISC"
+}
