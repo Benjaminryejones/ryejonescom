@@ -1,0 +1,15 @@
+.hero {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./img/personal_photo_2019__comp_mobile.jpg') no-repeat center center;
+  background-size: cover;
+
+  &__name {
+    color: white;
+    text-shadow: 0 0 4px rgba(40,40,40,.3);
+    font-size: 4rem;
+  }
+}

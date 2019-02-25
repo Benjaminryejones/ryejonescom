@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- GA -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58773834-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-58773834-1');
+		</script>
+		<!-- End GA -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" href="{% static "style.css" %}">
+		<title>ryejones.com</title>
+	</head>
+	<body>
+		<div id="app-wrapper"></div>
+		<foot>
+			<script src="{% static "bundle.js" %}"></script>
+		</foot>
+	</body>
+</html>

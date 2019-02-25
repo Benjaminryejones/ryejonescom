@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Lato',sans-serif;
+  background-color: #fafafa;
+  color: rgba(20, 20, 20, 0.8); }
+
+p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.35; }
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 0; }
+
+.section-hr {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  width: 220px;
+  margin-bottom: 12px; }
+
+.hero {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./img/personal_photo_2019__comp_mobile.jpg") no-repeat center center;
+  background-size: cover; }
+  .hero__name {
+    color: white;
+    text-shadow: 0 0 4px rgba(40, 40, 40, 0.3);
+    font-size: 4rem; }
+
+.about .section-title {
+  margin-top: 0; }
+
+.experiences
+, .about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  @media screen and (min-width: 728px) {
+    .experiences
+, .about {
+      max-width: 780px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+.experience {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-bottom: 12px; }
+  @media screen and (min-width: 728px) {
+    .experience {
+      flex-flow: row nowrap; } }
+  .experience__image {
+    height: 80px;
+    min-width: 80px;
+    margin: 10px;
+    background: center no-repeat;
+    background-size: contain;
+    align-self: center; }
+    @media screen and (max-width: 728px) {
+      .experience__image {
+        height: 120px;
+        width: 240px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-self: center; } }
+  @media screen and (min-width: 728px) {
+    .experience__divider {
+      display: none; } }
+  .experience__content {
+    display: flex;
+    flex-flow: column;
+    margin: 8px; }
+    .experience__content_company {
+      font-size: 1.4rem; }
+    .experience__content_title {
+      align-self: flex-start;
+      margin-bottom: .1rem; }
+    .experience__content_dateloc {
+      align-self: flex-start;
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: .4rem; }
+    .experience__content_description {
+      line-height: 1.3; }
+

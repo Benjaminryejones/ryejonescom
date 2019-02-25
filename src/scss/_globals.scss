@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Lato',sans-serif;
+  // background-color: rgba(225,225,225,.1);
+  background-color: #fafafa;
+  color: rgba(20,20,20,.8);
+  // color: #676d73;
+}
+
+p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.section-hr {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  width: 220px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,72 @@
+.experiences
+, .about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 728px) {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.experience {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-bottom: 12px;
+
+  @media screen and (min-width: 728px) {
+    flex-flow: row nowrap;
+  }
+
+  &__image {
+    height: 80px;
+    min-width: 80px;
+    margin: 10px;
+    background: center no-repeat;
+    background-size: contain;
+    align-self: center;
+
+    @media screen and (max-width: 728px) {
+      height: 120px;
+      width: 240px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: center;
+    }
+  }
+
+  &__divider {
+    @media screen and (min-width: 728px) {
+      display: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-flow: column;
+    margin: 8px;
+
+    &_company {
+      font-size: 1.4rem;
+    }
+    &_title {
+      align-self: flex-start;
+      margin-bottom: .1rem;
+    }
+    &_dateloc {
+      align-self: flex-start;
+      color: rgba(black, .6);
+      margin-bottom: .4rem;
+    }
+    &_description {
+      line-height: 1.3;
+    }
+  }
+}
